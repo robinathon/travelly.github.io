@@ -1,0 +1,280 @@
+/*Global Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.main-head div :hover {
+  background: cornflowerblue;
+}
+button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+  animation: buttonAnimation 2s;
+}
+button:hover {
+  background: #27394e;
+}
+
+/* Nav Section With HERO */
+
+.main-head {
+  background: #131c27;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#logo {
+  flex: 4 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+}
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url("/img/florian-rieder-GOBBMsTEeo0-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: black;
+}
+.hero h3 {
+  padding: 3rem;
+}
+
+/*LOCATIONS SECTION*/
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(248, 246, 246, 0.4), transparent),
+    url("/img/jermaine-ee-IWFpHhXL05Q-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+.locations-head h2 {
+  padding: 1rem 0;
+  text-decoration: underline;
+}
+.locations-head h3 {
+  padding: 2rem 0;
+  font-weight: 500;
+  /*background: linear-gradient(#131c27, #f8533a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+/*@keyframes buttonAnimation {
+  0% {
+    background: rgb(129, 29, 62);
+  }
+  25% {
+    background: rgb(57, 57, 158);
+  }
+  100% {
+    background: rgb(46, 46, 109);
+  }
+}*/
+
+/*Benefits Section*/
+
+.benefits-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgb(36, 35, 35, 0.2),
+    0px 20px 10px rgb(36, 35, 35, 0.2);
+  text-align: center;
+}
+.card p,
+h4 {
+  margin: 2rem 1rem;
+}
+
+.cards img {
+  height: 100px;
+  width: 100%;
+  background: rgb(185, 205, 199);
+}
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/marc-thunis-Dw3APludDpE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.form-wrapper input {
+  padding: 1rem 3rem;
+}
+
+footer {
+  color: white;
+  background: rgba(19, 28, 39, 1);
+}
+footer img {
+  height: 4rem;
+}
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h5 {
+  flex: 1 1 40rem;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 1rem;
+    background: url();
+  }
+  .form-wrapper {
+    width: 90%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 2rem;
+  }
+}
