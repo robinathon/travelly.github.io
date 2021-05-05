@@ -188,7 +188,7 @@ h4 {
 #contact {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("/img/marc-thunis-Dw3APludDpE-unsplash.jpg");
+    url("./img/marc-thunis-Dw3APludDpE-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
