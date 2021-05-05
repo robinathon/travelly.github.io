@@ -87,7 +87,7 @@ nav ul {
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
-    url("/img/florian-rieder-GOBBMsTEeo0-unsplash.jpg");
+    url("./img/florian-rieder-GOBBMsTEeo0-unsplash.jpg");
   background-size: cover;
   color: white;
   display: flex;
@@ -106,7 +106,7 @@ nav ul {
 #locations {
   min-height: 100vh;
   background: linear-gradient(rgba(248, 246, 246, 0.4), transparent),
-    url("/img/jermaine-ee-IWFpHhXL05Q-unsplash.jpg");
+    url("./img/jermaine-ee-IWFpHhXL05Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -188,7 +188,7 @@ h4 {
 #contact {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("/img/marc-thunis-Dw3APludDpE-unsplash.jpg");
+    url("./img/marc-thunis-Dw3APludDpE-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
