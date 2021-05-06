@@ -118,12 +118,14 @@ nav ul {
   margin: auto;
 }
 .locations-head h2 {
+  color: #040c37bf;
   padding: 1rem 0;
   text-decoration: underline;
 }
 .locations-head h3 {
   padding: 2rem 0;
   font-weight: 500;
+  color: #240202c7;
   /*background: linear-gradient(#131c27, #f8533a);
   background-clip: text;
   -webkit-text-fill-color: transparent;*/
